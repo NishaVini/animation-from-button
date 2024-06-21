@@ -1,0 +1,179 @@
+<html>
+
+<head>
+
+<style>
+
+body{
+
+    background:repeating-linear-gradient(aqua,yellow ,yellow,orange ,red,rgb(128, 0, 0) );
+  }
+
+
+
+
+  *{
+
+margin:0px;
+
+  }
+
+
+
+
+
+
+  button{
+
+    height:70px;
+    width:120px;
+    font-weight:bold;
+    font-size:40px;
+    border:solid 5px rgb(14, 14, 14);
+    color:black;
+    background-color:white;
+    border-radius:15px;
+    margin-top:300px;
+    margin-left:30px;
+    text-decoration:rgb(4, 41, 252) underline;
+
+  }
+
+
+
+
+
+      img{
+                 height:170px;
+                 width:170px;
+                
+             border:solid 8px black;
+                border-radius:50%;
+
+                position:absolute;
+                margin-top:260px;
+                margin-left:600px;
+
+      }
+
+
+
+
+
+      #aai{
+
+             margin-top:0px;
+
+      }
+
+      #bi{
+
+        margin-left:285px;
+
+ }
+
+ #ci{
+
+    margin-top:540px;
+
+}
+
+#di{
+
+    margin-left:900px;
+
+}
+   
+
+#ei{
+
+    margin-left:820px;
+    margin-top:480px;
+
+}
+   
+
+
+#fi{
+
+    margin-left:820px;
+    margin-top:60px;
+
+}
+   
+
+
+#gi{
+
+    margin-left:370px;
+    margin-top:60px;
+
+}
+   
+
+
+#hi{
+
+    margin-left:370px;
+    margin-top:480px;
+
+}
+
+
+ 
+
+
+</style>
+
+</head>
+
+
+<body >
+
+<div class="contener">
+
+    <img src="aa.jpg" name="aai" id="aai">
+    <img src="b.jpg" name="bi" id="bi">
+    <img src="c.jpg" name="ci" id="ci">
+    <img src="d.jpg" name="di" id="di">
+    <img src="e.jpg" name="ei" id="ei">
+    <img src="f.jpg" name="fi" id="fi">
+    <img src="g.jpg" name="gi" id="gi">
+    <img src="h.jpg" name="hi" id="hi">
+    <img src="i.jpg" name="ii" id="ii">
+</div>
+
+    <button onclick="swapping()">click</button>
+
+
+</body>
+
+<script>
+ 
+function swapping(){
+
+
+
+t=aai.src
+aai.src=bi.src
+bi.src=ci.src                       
+ci.src=di.src
+di.src=ei.src
+ei.src=fi.src
+fi.src=gi.src
+gi.src=hi.src
+hi.src=t
+
+
+}
+
+
+/* setInterval(function(){
+
+    swapping();
+},1000) */
+
+
+</script>
+
+</html>
